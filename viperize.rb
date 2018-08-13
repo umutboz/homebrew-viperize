@@ -6,7 +6,7 @@ class Viperize < Formula
   # depends_on "cmake" => :build
 
   def install
-        bin.install "viperize"
+        bin.install "viperize.rb"
   end
 
 end
