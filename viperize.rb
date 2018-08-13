@@ -6,8 +6,8 @@ class Viperize < Formula
   # depends_on "cmake" => :build
 
   def install
-        libexec.install Dir["*"]
-        bin.write_exec_script (libexec/"viperize")
+       libexec.install "viperize.sh"
+       bin.install_symlink libexec/"viperize.sh" => "viperize"
   end
 
 end
