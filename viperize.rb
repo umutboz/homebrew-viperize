@@ -1,8 +1,8 @@
 class Viperize < Formula
-    desc "ios viper code template generator"
+    desc "ios viper code template generator 1.6.0"
     homepage ""
-    url "https://github.com/umutboz/viperize/archive/1.5.0.tar.gz"
-    sha256 "3ffee9a9c37aef920080266528f56c1ba5bab37d00f588f91a1e1fc8fb86d80a"
+    url "https://github.com/umutboz/viperize/archive/1.6.0.tar.gz"
+    sha256 "20825b43a8a87400c553013206c10df5c0de29afada5fbf9901e9836ac9433c0"
     # depends_on "cmake" => :build
     
     def install
